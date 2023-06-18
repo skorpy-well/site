@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=	, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+			.knopka{
+            width: 40%;
+        	border: solid 5px white;
+        	text-align: center;
+        	background: linear-gradient(to right, red 0%,orange 20%,red 40%,orange 60%,red 80%,orange 100%);
+        	margin: 20px;
+        	height: 60px;
+        	border-radius: 28px;
+        	font-size: 20px;
+		}
+		.knopka:hover{
+            border: solid 5px black; 
+            background: linear-gradient(to right, violet 0%,blue 20%,violet 40%,blue 60%,violet 80%, blue 100%)
+		}
+		</style>
+</head>
+<body>
+	<button class="knopka">
+		<a href="file:///C:/Users/User/Downloads/[ITVDN]%20HTML5%20%D0%98%20CSS3%20STARTER/HTML5&CSS3/my%20work/last_lesson.html">~ПОВЕНУТИСЯ НАЗАД~</a>
+	</button>
+	<script>
+		const min = parseInt(prompt("Введіть мінімальне значення діапазону:"));
+const max = parseInt(prompt("Введіть максимальне значення діапазону:"));
+
+for (let i = 0; i < 1000; i++) {
+  const randomNum = Math.floor(Math.random() * (max - min + 1) + min);
+  alert(randomNum);
+}
+	</script>
+</body>
+</html>
